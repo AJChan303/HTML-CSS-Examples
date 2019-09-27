@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>JS Tables</title>
+    <style>
+        table{border:3px red solid;}
+        tr{border: 2px blue solid;
+           padding: 2px;}
+        td{border:1px green solid;
+           margin: 5px;
+        }
+    </style>
+    <script>
+        var btn = document.getElementById("btn10");
+        btn.onclick = function () { alert('you are adding 10 koalas') };
+        function DoWork() {
+            console.log('You Did it!');
+            var table = document.getElementById('mytable');
+            console.log(table);
+            console.log(table.rows.length);
+
+            Stuff(table);
+
+
+        }
+        function Stuff(t) {
+
+            for (var i = 0; i < 10; i++) {
+                var newRow = t.insertRow();
+                var newCell = newRow.insertCell();
+                newCell.innerHTML = "Koalas";
+                newCell = newRow.insertCell();
+                newCell.innerHTML = "Mega KILL!"
+            }
+        }
+    </script>
+
+</head>
+<body>
+
+    <button onclick="DoWork()">Click Me!</button>
+    <button id="btn10">Are you sure?</button>
+    <table id="mytable">
+        <tr>
+            <td>Cute Cuddly Kittens Mittens</td>
+            <td>Monster kittens</td>
+        </tr>
+        <tr>
+            <td>kite flying kittens</td>
+            <td>Kilts for sale!</td>
+        </tr>
+        <tr>
+            <td>Fish</td>
+        </tr>
+    </table>
+</body>
+</html>

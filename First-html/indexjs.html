@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script lang = "JavaScript">
+        function add1(){
+            console.log("run the add1 function");
+            var inputCtrl = document.getElementById("nbr");
+            var nbr = inputCtrl.value;
+            console.log("nbr is ", nbr);
+           
+            var outputCtrl = document.getElementById("ans");
+            outputCtrl.value = Number(nbr) + 1;
+        }
+    </script>
+
+    <title>JavaScript</title>
+</head>
+<body>
+    <label>Number:</label>
+    <input type = "text" value = "0" id = "nbr">
+    <label>Answer:</label>
+    <input type = "text" name = "ans" id ="ans">
+    <button onclick = "add1();">Add</button>
+</body>
+</html>

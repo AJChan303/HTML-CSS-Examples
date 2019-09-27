@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Form Controls</title>
+</head>
+
+<body>
+
+    <div hidden>
+        <p>this form is for user information</p>
+        <p>It will be stored in our database</p>
+
+    </div>
+    <div>
+        <p>Enter All the text field please</p>
+        <p>the password field is masked</p>
+        <p>click button when ready</p>
+    </div>
+    <form method="GET" action="index3.html">
+        <table>
+            <!-- table-->
+            <tr>
+                <!-- table rows  -->
+                <td>First Name</td>
+                <!--table columns-->
+                <td><input type="text" name="fname" value="First name"></td>
+            </tr>
+            <tr>
+                <td>Last Name</td>
+                <td> <input type="text" name="lname" value="Last name" size="50"></td>
+                <!--value = preloaded-->
+
+            </tr>
+            <tr>
+                <td>Username</td>
+                <td><input type="text" name="uname" value="Enter a vaild username"></td>
+            </tr>
+            <tr>
+                <td>Password</td>
+                <td><input type="password" name="Password" value="******"></td>
+            </tr>
+            <tr>
+                <td>Employed?</td>
+                <td><input type="checkbox" name="isemployee" checked></td>
+            </tr>
+        </table>
+        <input type="submit" value="click  me">
+    </form>
+    <form method="Post" action="index4.html">
+        <input type="text" name="aaa" value="123">
+        <input type="text" name="bbb" value="789">
+        <input type="submit" value="click  me">
+    </form>
+
+</body>
+
+</html>

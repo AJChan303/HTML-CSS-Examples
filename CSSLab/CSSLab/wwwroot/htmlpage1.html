@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <h1>New User</h1>
+    
+    <form name="form1">
+        First Name <input type="text" name="FName" id="FName" />
+        Last Name <input type="text" name="LName" id="LName" />
+        <input type="hidden" value="123" name="UserId" />
+
+        <br />
+        <input type="checkbox" value="true" name="isAdmin" />Are you an Admin?
+        <br />
+        <button onclick="alert('Welcome '+  form1.FName.value + ' ' + form1.LName.value)  ">save/login/you know button stuff</button>
+    </form>
+</body>
+</html>

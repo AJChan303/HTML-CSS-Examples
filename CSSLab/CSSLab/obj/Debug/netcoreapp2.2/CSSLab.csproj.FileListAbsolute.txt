@@ -1,0 +1,14 @@
+C:\repos\CSSLab\CSSLab\bin\Debug\netcoreapp2.2\CSSLab.deps.json
+C:\repos\CSSLab\CSSLab\bin\Debug\netcoreapp2.2\CSSLab.runtimeconfig.json
+C:\repos\CSSLab\CSSLab\bin\Debug\netcoreapp2.2\CSSLab.runtimeconfig.dev.json
+C:\repos\CSSLab\CSSLab\bin\Debug\netcoreapp2.2\CSSLab.dll
+C:\repos\CSSLab\CSSLab\bin\Debug\netcoreapp2.2\CSSLab.pdb
+C:\repos\CSSLab\CSSLab\obj\Debug\netcoreapp2.2\CSSLab.csproj.CoreCompileInputs.cache
+C:\repos\CSSLab\CSSLab\obj\Debug\netcoreapp2.2\CSSLab.RazorAssemblyInfo.cache
+C:\repos\CSSLab\CSSLab\obj\Debug\netcoreapp2.2\CSSLab.RazorAssemblyInfo.cs
+C:\repos\CSSLab\CSSLab\obj\Debug\netcoreapp2.2\CSSLab.AssemblyInfoInputs.cache
+C:\repos\CSSLab\CSSLab\obj\Debug\netcoreapp2.2\CSSLab.AssemblyInfo.cs
+C:\repos\CSSLab\CSSLab\obj\Debug\netcoreapp2.2\CSSLab.RazorTargetAssemblyInfo.cache
+C:\repos\CSSLab\CSSLab\obj\Debug\netcoreapp2.2\CSSLab.dll
+C:\repos\CSSLab\CSSLab\obj\Debug\netcoreapp2.2\CSSLab.pdb
+C:\repos\CSSLab\CSSLab\obj\Debug\netcoreapp2.2\CSSLab.csprojAssemblyReference.cache

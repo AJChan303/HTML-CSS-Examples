@@ -1,0 +1,11 @@
+main{
+  flex:auto;  
+}
+footer{
+  flex-shrink: 0;
+}
+#document { 
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}

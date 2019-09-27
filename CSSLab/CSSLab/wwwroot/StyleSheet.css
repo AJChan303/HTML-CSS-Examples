@@ -1,0 +1,55 @@
+﻿body {background-color:chartreuse;
+      font-size:16px;
+      color:aqua;
+
+}
+
+h1,h2,h3{
+    font-family:Arial, Helvetica, sans-serif;
+}
+a, p {
+    font-family:Arial;
+}
+.blinking {
+    animation: blinking 0.8s infinite;
+}
+
+@keyframes blinking {
+    0% {
+       opacity:1;
+    }
+
+    49% {
+        opacity:1;
+    }
+
+    50% {
+        background-color: transparent;
+    }
+
+    99% {
+        background-color: transparent;
+    }
+
+    100% {
+       display:none;
+       opacity:0;
+    }
+}
+header {
+    font-family:'Comic Sans MS';
+    border:3px dotted pink;
+    padding:10px;
+    background-color:lightpink;
+    text-align:center;
+    font-size:2em;
+    transition-delay:1;
+    transform:scale(1, 2)
+}
+nav a{
+    text-decoration:none;
+    border:1px solid;
+    border-radius:5px 5px 0 0;
+    mr
+
+}

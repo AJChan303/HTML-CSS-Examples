@@ -1,0 +1,7 @@
+C:\repos\MyWebServer\MyWebServer\bin\Debug\MyWebServer.exe.config
+C:\repos\MyWebServer\MyWebServer\bin\Debug\MyWebServer.exe
+C:\repos\MyWebServer\MyWebServer\bin\Debug\MyWebServer.pdb
+C:\repos\MyWebServer\MyWebServer\obj\Debug\MyWebServer.csprojAssemblyReference.cache
+C:\repos\MyWebServer\MyWebServer\obj\Debug\MyWebServer.csproj.CoreCompileInputs.cache
+C:\repos\MyWebServer\MyWebServer\obj\Debug\MyWebServer.exe
+C:\repos\MyWebServer\MyWebServer\obj\Debug\MyWebServer.pdb

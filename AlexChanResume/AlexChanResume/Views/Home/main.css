@@ -1,0 +1,147 @@
+/**********************************
+*
+* Resume Stylesheet
+*
+*
+* White 	: #fff
+* grey borders :#DFDFDF;
+* blue: #2520FF;
+* light green :B4FFAC;
+* papyrus     :#FFF5B2;
+**********************************
+/*----------------------------
+*  fonts
+----------------------------*/
+@font-face{
+font-family: Arial, Georgia, Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: normal;
+}
+/*----------------------------
+*  Base
+----------------------------*/
+body {
+	/* background-color: rgb(235, 226, 174); */
+	/* background-image: url("1920hexa.png"); */
+	/* background-size: stretch;
+	background-attachment: fixed;
+	background-repeat: no-repeat; */
+	background-color: rgb(245, 237, 171);
+  /* background-position: right top;
+  */
+	/* background-image: url("psmi.png");
+	background-repeat: no-repeat;
+	  background-position: right top; */
+	  margin-left: 40px;
+	  margin-right: 40px;
+	  margin-top: 60px;
+
+
+
+}
+
+  h2, h3, h4, h6 {
+font-family: Arial;
+color: #2520FF;
+}
+h5{
+	font-family: Arial;
+}
+ .und{
+	text-decoration: underline;
+	
+ }
+ .bot{
+	border-bottom: 1px solid black;
+ }
+ h5{
+	text-decoration: underline;
+	text-decoration-color: black;
+ }
+ h1{
+	 font-family: Arial;
+	 color:white;
+	 background-color: #2520FF;
+	 text-align: center;
+	 
+ }
+
+ p {
+font-family: Arial;
+}
+
+
+
+ul.a {
+	
+		list-style-type: none;
+	  
+
+}
+li {
+font-family: Arial;
+}
+.b{
+	text-align: center;
+}
+
+/*----------------------------
+*  button transition attempt
+----------------------------*/
+img{
+	background-color: transparent;
+}
+.img {
+	transition: all .2s ease;
+	background-color: transparent;
+}
+.img:hover {
+	transform: scale(1.1);
+	background-color: transparent;
+}
+
+
+/*----------------------------
+*  tagline
+----------------------------*/
+
+.tbborder{
+border-bottom: 1px solid rgb(46, 45, 45);
+border-top: 1px solid rgb(46, 45, 45);
+padding-top: 4px;
+padding-bottom: 4px;
+text-align: center;
+}
+
+
+/*----------------------------
+*  Skills
+----------------------------*/
+.skills {
+border-bottom: 1px solid #DFDFDF;
+
+}
+
+/*----------------------------
+*  xp
+----------------------------*/
+.xp {
+border-bottom: 1px solid #DFDFDF;
+
+}
+/*----------------------------
+*  contact
+----------------------------*/
+.contact {
+	background-color: #33FFFF; 
+
+}
+
+/*----------------------------
+*  content
+----------------------------*/
+.content {
+	
+	margin: 0 auto;
+	max-width: 800px;
+}
